@@ -23,7 +23,7 @@ with sqlite3.connect(DATABASE) as db:
             """
             INSERT INTO entries (title, text) VALUES (?, ?)
         """,
-            ("spaceship", "My MVP MVC Lego spaceship 🚀"),
+            ("spaceship", "Lego spaceship 🚀"),
         )
 
         db.commit()

@@ -18,3 +18,28 @@ exclude        = [".git", "venv", "migrations", "node_modules"]
 [tool.ruff.lint]
 select = ["E", "F", "I", "RUF100"]
 ignore = ["E501"]                  # Line length is controlled by Black
+
+[tool.poetry]
+name = "real-python-materials"
+version = "0.1.0"
+description = ""
+authors = ["bwrob <bw2002@wp.pl>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+black = "^24.4.2"
+ruff = "^0.5.1"
+blinker = "^1.8.2"
+click = "^8.1.7"
+flask = "^3.0.3"
+itsdangerous = "^2.2.0"
+jinja2 = "^3.1.4"
+markupsafe = "^2.1.5"
+werkzeug = "^3.0.3"
+typer = "^0.12.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

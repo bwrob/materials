@@ -114,3 +114,5 @@ ENV/
 
 # VS Code workspace
 *.code-workspace
+/typer-cli-python/README_files
+typer-cli-python/README.html
